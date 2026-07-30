@@ -4,7 +4,7 @@ import Accueil from './sections/Accueil'
 import About from './sections/About'
 import Projects from './sections/Projects'
 import Contact from './sections/Contact'
-import ScrollToTop from './components/ScrollToTop'
+// import ScrollToTop from './components/ScrollToTop'
 
 // COMPOSANT PRINCIPAL de l'application
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
     </div>
   )
 }
