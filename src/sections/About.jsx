@@ -51,7 +51,7 @@ const About = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-5xl font-bold bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">
+          <h2 className="text-3xl md:text-5xl font-bold bg-linear-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">
             À propos de moi
           </h2>
           <div className="mt-3 h-1 w-20 bg-indigo-500 mx-auto rounded-full" />
@@ -66,7 +66,7 @@ const About = () => {
           className="max-w-3xl mx-auto text-center mb-16 text-slate-300 text-lg leading-relaxed"
         >
           <p>
-            Passionné par le développement web, je me spécialise dans la création d'applications web modernes avec <span className="text-indigo-400 font-semibold">ReactJS</span> et <span className="text-cyan-400 font-semibold">Tailwind CSS</span>. <br />
+            Moi c'est Rayane passionné par le développement web, je me spécialise dans la création d'applications web modernes avec <span className="text-indigo-400 font-semibold">ReactJS</span> et <span className="text-cyan-400 font-semibold">Tailwind CSS</span>. <br />
             J'aime transformer des idées complexes en interfaces simples, élégantes et réactives.
           </p>
         </motion.div>
